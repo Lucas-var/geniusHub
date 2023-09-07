@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+  height: 70vh;
+  width: 60%;
+  margin: auto;
+}
+
+button {
+  border: none;
+  border-radius: 80px;
+  padding: 10px 15px;
+  margin: 15px 5px;
+}
+
+h2 {
+  background-color: #f1efef;
+  padding: 25px;
+  text-align: left;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.text-data {
+  text-align: left;
+  font-size: 1.1rem;
+  margin: 5px 0 0 18vw;
+}
+
+.yellow-button {
+  margin-top: 5px;
+  background-color: #ffc40c;
+  border-color: #ffc40c;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.yellow-button:hover {
+  background-color: orange;
+  border: lightgray solid 1px;
+}
+
+.red-button {
+  background-color: red;
+  border-color: red;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.red-button:hover {
+  background-color: rgb(153, 14, 14);
+  border: lightgray solid 1px;
+}
+
+.activeScanResult {
+  text-align: left;
+  margin-left: 25px;
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+}
+
+.closeButton-div {
+  background-color: #f1efef;
+  padding: 20px;
+}
+
+.chart-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 5rem 0 3rem 0;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+h3 span {
+  cursor: help;
+}
+
+.wrapper {
+  margin-top: 10px;
+  border-radius: 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
